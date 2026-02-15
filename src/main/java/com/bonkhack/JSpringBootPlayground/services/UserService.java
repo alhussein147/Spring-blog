@@ -30,7 +30,7 @@ public class UserService {
             throw new BadRequestException("invalid email");
         }
         if (password.length() < 8) {
-            throw new BadRequestException("bitch ass password");
+            throw new BadRequestException("weak password");
         }
 
 
